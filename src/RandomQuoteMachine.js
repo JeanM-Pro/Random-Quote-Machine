@@ -1,18 +1,16 @@
-import React, {useState} from 'react'
-import {Quote} from './Quote'
+import React from 'react'
 
-export const RandomQuoteMachine = () => {
-    const [quoteIndex, setQuoteIndex] = useState()
-    const quotes = [{id: 1, quote: 'mamalo', autor: 'chavez'},{id: 1, quote: 'ajshdkahsjdkasj', autor: 'chavez'}]
-
-    const randomNumber = () => {
-        return Math.floor(Math.random()* quotes.length)
-    }
-
+export default function RandomQuoteMachine() {
     return (
-        <div id="quote-box">
-            {quoteIndex && <Quote quote={quotes[quoteIndex ]}/> }
-            <button onClick ={() =>setQuoteIndex(randomNumber)}>Get new quote</button> 
+        <div className='content'>
+            <div id='quote-box'>
+                <div id='text'>Chavez Mamonazo</div>
+                <div id='author'>Jean Centeno</div>
+                <div className='footer-box'>
+                    <a href='twitter.com/intent/tweet' target='_blank' id='tweet-quote'><img src="https://i.ibb.co/Fg89DcG/twitter-logo.jpg" alt="twitter-logo" border="0" className='logo-twitter'></img></a>
+                    <button id='new-quote'>New Quote</button>
+                </div>
+            </div>
         </div>
     )
 }
