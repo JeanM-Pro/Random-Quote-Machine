@@ -1,9 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+// import { CounterApp } from './CounterApp';
 import './index.css';
+// import { QuoteGrid } from './QuoteGrid';
 import RandomQuoteMachine from './RandomQuoteMachine';
 
-ReactDOM.render(
-  <RandomQuoteMachine />,
-  document.getElementById('root')
-);
+const divRoot = document.getElementById('root');
+
+ReactDOM.render( <RandomQuoteMachine />, divRoot );
