@@ -4,7 +4,7 @@ body{
 }
 
 .content{
-    background-color: blueviolet;
+    background-color: rgb(113, 231, 252);
     box-sizing: border-box;
     display: flex;
     height: 100vh;
@@ -14,22 +14,30 @@ body{
 }
 
 #quote-box{
-    background-color: burlywood;
+    background-color: rgb(25, 161, 240);
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    height: 50%;
-    padding: 40px 50px;
-    width: 50%;
+    padding: 20px 20px;
+    width: 30%;
+    border-radius: 0.6rem;
 }
 
 #text{
     text-align: center;
+    margin-bottom: 15px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5rem;
+    color: white;
+    
 }
+
 
 #author{
     display: flex;
     justify-content: flex-end;
+    margin-bottom: 15px;
+    color: white;
 }
 
 
