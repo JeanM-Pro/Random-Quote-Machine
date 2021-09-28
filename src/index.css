@@ -57,3 +57,34 @@ body{
     border-radius: 0.3rem;
 }
 
+
+@media (max-width: 933px){
+    #quote-box{
+        width: 50%;
+    }
+}
+
+@media (max-width: 766px){
+    #quote-box{
+        width: 60%;
+    }
+}
+
+@media (max-width: 650px){
+    #quote-box{
+        width: 70%;
+    }
+}
+
+@media (max-width: 590px){
+    #quote-box{
+        width: 80%;
+    }
+}
+
+@media (max-width: 373px){
+    #quote-box{
+        width: 90%;
+    }
+}
+
